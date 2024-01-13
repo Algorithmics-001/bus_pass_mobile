@@ -1,3 +1,4 @@
+import 'package:bus_pass_mobile/components/home_card.dart';
 import 'package:flutter/material.dart';
 
 import '../components/navigation_menu.dart';
@@ -11,9 +12,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Home'),
       ),
-      body: Center(
-        child: Text('Welcome to the Home Screen!'),
-      ),
+      body: HomeCard(),
       drawer: NavigationMenu(), // Add the navigation menu tab
     );
   }

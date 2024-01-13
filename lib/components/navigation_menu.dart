@@ -15,9 +15,9 @@ class NavigationMenu extends StatelessWidget {
               color: AppColors.primaryColor,
             ),
             child: Text(
-              'Navigation Menu',
+              'Buss Zappy',
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 fontSize: 24,
               ),
             ),
