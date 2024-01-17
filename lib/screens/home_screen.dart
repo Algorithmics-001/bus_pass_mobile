@@ -12,7 +12,10 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Home'),
       ),
-      body: HomeCard(),
+      body: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: HomeCard(),
+      ),
       drawer: NavigationMenu(), // Add the navigation menu tab
     );
   }
